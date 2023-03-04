@@ -1,6 +1,8 @@
 # This tells us the version of node image we want to use.
 
-FROM node:alpine
+# FROM node:alpine
+
+FROM node:latest
 
 # This tells Docker to create a directory so that other commands will use it
 WORKDIR /app
